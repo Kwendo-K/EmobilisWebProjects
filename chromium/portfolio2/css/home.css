@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url("/images/macbook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.active {
+    color: yellow;
+}
+
+.container-fluid ul {
+    padding: 20px;
+}
+
+.container-fluid ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.container-fluid ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.name h2 {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.name h4 {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}

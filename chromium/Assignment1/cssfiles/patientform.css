@@ -1,0 +1,37 @@
+
+body{
+    background-color: lightgrey;
+}
+.logo img{
+    text-align: center;
+    width: 100px;
+    height: auto;
+}
+#name{
+    text-align: center;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(190, 173, 173);
+    padding: 10px;
+}
+label{
+    display: inline-block;
+    padding: 12px 12px;
+}
+.inputstyle{
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 8px;
+}
+.submit{
+    width: 60%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(92, 130, 233);
+}

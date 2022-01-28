@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+}
+.frm {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-style: none;
+    background-color: lightgrey;
+    
+}
+
+.frm div {
+    box-shadow: lightyellow;
+}
+
+.footer {
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+}

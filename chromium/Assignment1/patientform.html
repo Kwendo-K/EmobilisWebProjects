@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Patient Form</title>
+        <link rel="stylesheet" href="cssfiles/patientform.css">
+    </head>
+    <body>
+        <div class="logo">
+            <a href="main.html"><img src="images/hosplogo.png" alt="hospital logo" width="250" height=auto></a>
+            <h1 id="name">St. James Hospital Registration form</h1>
+        </div>
+        <div>
+            <form>
+                <label for="patientId">Patient Id:</label><br>
+                <input class="inputstyle" type="number" name="id" placeholder="1"><br>
+                <label for="fullname">Full Name:</label><br>
+                <input class="inputstyle" type="text" name="fullname"><br>
+                <label for="phone">Tel:</label><br>
+                <input class="inputstyle" type="tel" name="tel" placeholder="+254719283340"><br>
+                <label for="email">Email</label><br>
+                <input class="inputstyle" type="email" name="email" placeholder="kwendokevin@gmail.com"><br>
+                <label for="gender:">Gender</label><br>
+                <input type="radio" name="gender" value="M">
+                <label for="male">M</label>
+                <input type="radio" name="gender" value="female">
+                <label for="female">F</label><br>
+                <label for="reg date">Registration Date:</label><br>
+                <input class="inputstyle" type="date" name="date"><br>
+                <label for="InsuaranceNo">Insuarance No:</label><br>
+                <input class="inputstyle" type="number" name="insuaranceNo"><br>
+                <input class="submit" type="submit" name="submit">
+
+            </form>
+        </div>
+    </body>
+</html>

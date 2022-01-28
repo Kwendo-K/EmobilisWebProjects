@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url("/images/macbook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid ul {
+    padding: 10px;
+}
+
+.container-fluid li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.container-fluid ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 30px;
+}
+
+main h3 {
+    color: white;
+    text-align: left;
+}
+main img {
+    width: 100px;
+    border-radius: 20%;
+    text-align: left;
+}
+
+.about {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.firstul {
+    list-style-type: square;
+}
+.secondul {
+    list-style-type: square;
+}
+
+.social img {
+    width: 30px;
+}
+
+.social ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
