@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url("/images/macbook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin-top: 180px;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.sociallinks {
+    padding-top: 100px;
+}
+
+.sociallinks li {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+}
